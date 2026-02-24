@@ -118,11 +118,9 @@ fig = px.bar(
 )
 
 fig.update_layout(
-    plot_bgcolor="white",
-    paper_bgcolor="white",
     legend_title_text="Gender",
     xaxis_title="State of Residence",
-    yaxis_title="Total Births",
+    yaxis_title="Total Births"
 )
 
 st.plotly_chart(fig, use_container_width=True)
